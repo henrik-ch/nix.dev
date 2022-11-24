@@ -49,7 +49,7 @@ $ curl -L https://nixos.org/nix/install | sh -s -- --daemon
 Start a Docker shell with Nix:
 
 ```shell-session
-$ docker run -it nixos/nix
+$ docker run -it --rm nixos/nix
 ```
 
 Or start a Docker shell with Nix exposing a `workdir` directory:
