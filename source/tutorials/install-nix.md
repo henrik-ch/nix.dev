@@ -59,7 +59,7 @@ For security you may want to [verify the installation script] using GPG signatur
 Start a Docker shell with Nix:
 
 ```shell-session
-$ docker run -it nixos/nix
+$ docker run -it --rm nixos/nix
 ```
 
 Or start a Docker shell with Nix exposing a `workdir` directory:
