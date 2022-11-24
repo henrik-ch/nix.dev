@@ -78,7 +78,7 @@ Check the installation by opening **a new terminal** and typing:
 
 ```shell-session
 $ nix --version
-nix (Nix) 2.11.0
+nix (Nix) 2.11.1
 ```
 
 [multi-user installation]: https://nixos.org/manual/nix/stable/installation/multi-user.html
