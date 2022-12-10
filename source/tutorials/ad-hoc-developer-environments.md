@@ -51,8 +51,7 @@ You can search the package list using:
 
 ```shell-session
 $ nix-env -qaP git
-gitAndTools.gitFull  git-2.25.0
-gitMinimal           git-2.25.0
+nixpkgs.git  git-2.38.1
 ```
 
 The first column is the {term}`attribute name` and the second is the {term}`package name` and its version.
