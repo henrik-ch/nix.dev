@@ -75,10 +75,10 @@ these paths will be fetched (44.16 MiB download, 236.37 MiB unpacked):
 /nix/store/hx63qkip16i4wifaqgxwrrmxj4az53h1-git-2.25.0
 
 [nix-shell:~]$ git --version
-git version 2.25.0
+git version 2.38.1
 
 [nix-shell:~]$ which git
-/nix/store/hx63qkip16i4wifaqgxwrrmxj4az53h1-git-2.25.0/bin/git
+/nix/store/iifwqr2w1k466r3mhjq56vlhpi2km1r5-git-minimal-2.38.1/bin/git
 ```
 
 Note that even if you had Git installed before, in the shell, only the exact version installed by Nix is used.
