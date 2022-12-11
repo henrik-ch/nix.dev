@@ -63,9 +63,15 @@ The `workdir` example from above can be also used to start hacking on Nixpkgs:
 
 ```shell-session
 $ git clone git@github.com:NixOS/nixpkgs
-$ docker run -it -v $(pwd)/nixpkgs:/nixpkgs nixos/nix
+$ docker run --name nixpkgs_experiment -it -v $(pwd)/nixpkgs:/nixpkgs nixos/nix
+bash-5.1# cd nixpkgs/
 bash-5.1# nix-build -I nixpkgs=/nixpkgs -A hello
 bash-5.1# find ./result # this symlink points to the build package
+bash-5.1# exit
+```
+and to restart after first init:
+```shell-session
+$ docker start -i nixpkgs_experiment
 ```
 
 ::::
