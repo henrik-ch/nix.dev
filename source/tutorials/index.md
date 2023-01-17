@@ -8,6 +8,7 @@ ad-hoc-developer-environments.md
 nix-language.md
 towards-reproducibility-pinning-nixpkgs.md
 declarative-and-reproducible-developer-environments.md
+nix-shell-in-shebang.md
 continuous-integration-github-actions.md
 dev-environment.md
 building-and-running-docker-images.md
