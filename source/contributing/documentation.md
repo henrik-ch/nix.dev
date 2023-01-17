@@ -1,6 +1,6 @@
 # Contributing Documentation
 
-This guide explains how you can contribute documentation to Nix, Nixpkgs, or NixOS.
+This guide explains how you can contribute documentation to Nix, Nixpkgs, NixOS or NixOS Wiki.
 
 ## List of available documentation
 
